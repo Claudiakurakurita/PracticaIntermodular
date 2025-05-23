@@ -24,7 +24,7 @@ Tablas html con los datos.<br>
 Javascript: DOM, eventos y uso de funciones de cadenas de texto.<br>
 CSS.<br>
 
-## Entornos de desarrollo ( [[zetinia]](https://github.com/zetinia)) ##
+## Entornos de desarrollo ([zetinia](https://github.com/zetinia)) ##
 **Requisitos**<br>
 Diseñar diagrama de casos de uso del proyecto.<br>
 Uso de ramas por funcionalidad.<br>
