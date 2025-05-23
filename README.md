@@ -1,6 +1,6 @@
 # PracticaIntermodular
 
-## Programación ([Ruben-P77](https://github.com/Ruben-P77))##
+## Programación ([Ruben-P77](https://github.com/Ruben-P77)) ##
 **Requisitos**<br>
 Implementar las clases necesarias.<br>
 Crear una clase DataBaseManager.java<br>
