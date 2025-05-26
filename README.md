@@ -13,7 +13,7 @@ Manejo de excepciones<br>
 ## Bases de datos ([Claudiakurakurita](https://github.com/Claudiakurakurita)) ##
 **Requisitos**<br>
 Crear un diagrama entidad-relación (E/R).<br>
-Script sql: borrado previo, creación de la base de datos, creación de tablas, relaciones entre entidades e insercióm de datos<br>
+Script sql: borrado previo, creación de la base de datos, creación de tablas, relaciones entre entidades e inserción de datos<br>
 PL/SQL: un trigger que añada automáticamente la fecha de creación de los registros, una función o trigger que actualice automáticamente un campo numérico<br>
 
 ## Lenguaje de marcas ( [PepeJEJEJ](https://github.com/PepeJEJEJ) ) ##
