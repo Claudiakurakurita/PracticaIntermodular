@@ -1,18 +1,29 @@
 
-package com.mycompany.practicaintermodular;
+package com.mycompany.proyectointermodular;
 
 import java.util.ArrayList;
 
 
-public class Continentes extends ClavePrimaria{
+public class Continentes{
     
-    private ArrayList<ClavePrimaria>nombreContinentes;
+    private int id_continente;
+    private String nombre;
+    private String superficie;
 
-    public Continentes(String nombre, int id, ArrayList<ClavePrimaria>nombreContinentes) {
-        super(nombre, id);
-        this.nombreContinentes = nombreContinentes;
+    public Continentes(int id_continente, String nombre, String superficie) {
+        this.id_continente = id_continente;
+        this.nombre = nombre;
+        this.superficie = superficie;
     }
 
+    @Override
+    public String toString() {
+        return "Continentes{" + "id_continente=" + id_continente + ", nombre=" + nombre + ", superficie=" + superficie + '}';
+    }
+    
+    
+
+    
     
 
     
