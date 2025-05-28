@@ -1,3 +1,24 @@
+☁ Requisitos de Sistemas Informáticos.
+Cada grupo deberá desplegar su sitio web (realizado en HTML, CSS y JS) en una instancia
+remota en la nube, utilizando una máquina virtual en AWS (EC2 con Linux o Windows
+Server) o un proveedor equivalente.
+Requisitos técnicos:
+● Crear una máquina virtual en AWS (EC2) con un sistema operativo Linux (Ubuntu o
+similar) o Windows.
+● Instalar un servidor web (por ejemplo, Apache o Nginx).
+● Copiar los archivos del sitio web al servidor (por ejemplo, vía SCP o SFTP).
+● Configurar el servidor web para que los archivos sean accesibles públicamente.
+● Comprobar que el sitio es accesible desde un navegador mediante una URL pública.
+Documentación:
+● Capturas de los siguientes pasos:
+○ Creación de la instancia en AWS.
+○ Instalación del servidor web.
+○ Estructura de archivos desplegada.
+○ Página cargando correctamente desde el navegador.
+● Incluir todas las capturas y explicaciones en un fichero despliegue_aws.md dentro
+del repositorio.
+
+
 🎯 Objetivo
 Configurar un servidor web Linux utilizando una instancia EC2 de Amazon Web Services (AWS) para alojar y visualizar la página web desarrollada en el proyecto intermodular.
 
@@ -81,7 +102,3 @@ La correcta configuración de seguridad.
 El uso adecuado de herramientas (SSH, SFTP, tasksel).
 
 La comprensión del manejo de permisos y rutas.
-
- 
-
-¡¡¡IMPORTANTE!!! ¡No olvides entregar individualmente las capturas de pantalla que ha indicado el profesor en clase, donde se demuestre el correcto funcionamiento de la web desplegada en Amazon Web Services (AWS)!
