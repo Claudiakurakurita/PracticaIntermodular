@@ -18,7 +18,7 @@ Se ha creado una instancia EC2 con las siguientes características:
 - **Par de claves**: `vockey.pem` para acceso SSH
 - **Grupo de seguridad**: Puertos 22 (SSH) y 80 (HTTP) abiertos
 
-**Captura:**  
+  
 ![Creación de la instancia EC2](./capturas/1_creacion_instancia.png)
 
 ---
@@ -37,7 +37,7 @@ Se habilita el servicio para que inicie automáticamente:
 
 sudo systemctl enable apache2
 sudo systemctl start apache2
-**Captura:**
+
 ![Creación de la instancia EC2](./capturas/2_instalacion_apache.png)
 3. Transferencia de archivos del sitio web
 Desde tu ordenador local, usa SCP para subir tus archivos HTML, CSS y JS al servidor:
@@ -49,18 +49,17 @@ Después, en el servidor:
 
 sudo cp -r /tmp/* /var/www/html/
 sudo chmod -R 755 /var/www/html/
-**Captura:**
+
 ![Creación de la instancia EC2](./capturas/3_creacion_instancia.png)
 4. Verificación del sitio desde el navegador
 Abrimos un navegador y accedemos a la IP pública de la instancia EC2:
 
 cpp
 http://<3.83.219.220>
-**Captura:**
+
 ![Creación de la instancia EC2](./capturas/4_sitio_funcionando.png)
 
 5. Resultado
 El sitio web se encuentra desplegado correctamente en la nube y accesible desde cualquier navegador mediante la dirección IP pública.
-**Captura:**
 ![Creación de la instancia EC2]()
 
