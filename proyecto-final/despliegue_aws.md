@@ -39,7 +39,7 @@ sudo systemctl enable apache2
 sudo systemctl start apache2
 
 ![Creación de la instancia EC2](./capturas/2_instalacion_apache.png)
-3. Transferencia de archivos del sitio web
+## 3. Transferencia de archivos del sitio web
 Desde tu ordenador local, usa SCP para subir tus archivos HTML, CSS y JS al servidor:
 
 bash
@@ -51,7 +51,7 @@ sudo cp -r /tmp/* /var/www/html/
 sudo chmod -R 755 /var/www/html/
 
 ![Creación de la instancia EC2](./capturas/3_creacion_instancia.png)
-4. Verificación del sitio desde el navegador
+## 4. Verificación del sitio desde el navegador
 Abrimos un navegador y accedemos a la IP pública de la instancia EC2:
 
 cpp
