@@ -2,6 +2,7 @@
 package com.mycompany.proyecto_intermodular;
 
 import java.util.ArrayList;
+ 
 
 
 
@@ -46,12 +47,11 @@ public class Pais{
     }
     
     
-    
-
-
     public void añadirMonumentos(Monumento monu){
         monumentos.add(monu);
     }
+    
+
     
     
     

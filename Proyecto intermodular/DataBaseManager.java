@@ -6,7 +6,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
-
+ 
 public class DataBaseManager {
 
     private String url = "jdbc:mysql://database-1.cxrphqa9nyzl.us-east-1.rds.amazonaws.com:3306/proyecto_intermodular";
@@ -40,7 +40,7 @@ public class DataBaseManager {
                 lista.add(con);
             }
         } catch (SQLException e) {
-            System.out.println("Error al hacer la consulta" + e.getMessage());
+            throw new SQLException b("Error al hacer la consulta" + e.getMessage());
         }
         return lista;
     }
