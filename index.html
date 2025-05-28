@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Continentes, Países y Monumentos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <h1>Información sobre Continentes, Países y Monumentos</h1>
+    </header>
+    <main>
+    <section>
+    <label for="continente">Selecciona un continente:</label>
+    <select id="continente">
+    <option value="Europa">Europa</option>
+    <option value="Asia">Asia</option>
+    <option value="America">America</option>
+    <option value="Africa">Africa</option>
+    <option value="Oceania">Oceania</option>
+    </select>
+    </section>
+    <section>
+    <table>
+    <thead>
+    <tr>
+    <th>Continente</th>
+    <th>País</th>
+    <th>Monumento</th>
+    </tr>
+    </thead>
+    <tbody id="tabla-datos">
+    </tbody>
+    </table>
+    </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
