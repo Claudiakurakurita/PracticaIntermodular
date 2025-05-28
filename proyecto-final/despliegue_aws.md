@@ -30,6 +30,7 @@ Una vez conectados por SSH a la instancia con:
 ssh -i vockey.pem ubuntu@ec2-3-83-219-220.compute-1.amazonaws.com
 
 Se actualiza el sistema e instala Apache2:
+
 sudo apt update
 sudo apt install apache2 -y
 
@@ -42,20 +43,12 @@ sudo systemctl start apache2
 ## 3. Transferencia de archivos del sitio web
 Desde tu ordenador local, usa SCP para subir tus archivos HTML, CSS y JS al servidor:
 
-bash
 scp -i nombre-clave.pem -r ./index.html/* ubuntu@ec2-3-83-219-220.compute-1.amazonaws.com:/tmp
-Después, en el servidor:
-
-
-sudo cp -r /tmp/* /var/www/html/
-sudo chmod -R 755 /var/www/html/
 
 ![Creación de la instancia EC2](./capturas/3_creacion_instancia.png)
 ## 4. Verificación del sitio desde el navegador
 Abrimos un navegador y accedemos a la IP pública de la instancia EC2:
 
-cpp
-http://<3.83.219.220>
 
 ![Creación de la instancia EC2](./capturas/4_sitio_funcionando.png)
 
