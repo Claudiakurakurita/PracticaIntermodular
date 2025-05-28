@@ -59,7 +59,7 @@ http://<3.83.219.220>
 
 ![Creación de la instancia EC2](./capturas/4_sitio_funcionando.png)
 
-5. Resultado
+## 5. Resultado
 El sitio web se encuentra desplegado correctamente en la nube y accesible desde cualquier navegador mediante la dirección IP pública.
 ![Creación de la instancia EC2]()
 
